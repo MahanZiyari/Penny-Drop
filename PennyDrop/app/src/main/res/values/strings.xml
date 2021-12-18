@@ -4,4 +4,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="players">Players</string>
     <string name="game">Game</string>
+    <string name="roll">Roll</string>
+    <string name="or">Or</string>
+    <string name="pass">Pass</string>
+    <string name="coinSlotImage">CoinSlutImage</string>
 </resources>

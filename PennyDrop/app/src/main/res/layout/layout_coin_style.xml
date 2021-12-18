@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="slotNum"
+            type="int" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/coinImageCoinSlot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/coinSlotImage"
+            android:minWidth="36dp"
+            android:minHeight="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_monetization_on_black_24dp"
+            tools:srcCompat="@drawable/ic_monetization_on_black_24dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/coinImageCoinSlot"
+            app:layout_constraintStart_toStartOf="@id/coinImageCoinSlot"
+            app:layout_constraintTop_toBottomOf="@id/coinImageCoinSlot" />
+
+        <TextView
+            android:id="@+id/slotNumberCoinSlot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@{slotNum + ""}'
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/coinImageCoinSlot"
+            app:layout_constraintStart_toStartOf="@+id/coinImageCoinSlot"
+            app:layout_constraintTop_toBottomOf="@+id/coinImageCoinSlot"
+            tools:text="3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
