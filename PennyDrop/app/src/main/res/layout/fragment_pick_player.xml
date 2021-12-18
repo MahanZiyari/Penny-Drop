@@ -25,6 +25,8 @@
                 layout="@layout/player_list_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:checkboxHidden="@{true}"
+                app:switchHidden="@{true}"
                 android:layout_margin="4dp" />
 
             <include
@@ -32,6 +34,7 @@
                 layout="@layout/player_list_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:checkboxHidden="@{true}"
                 android:layout_margin="4dp" />
 
             <include
