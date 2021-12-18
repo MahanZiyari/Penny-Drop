@@ -8,6 +8,57 @@
     tools:context=".fragments.PickPlayerFragment">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/mainPlayer"
+            layout="@layout/player_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp" />
+
+        <include
+            android:id="@+id/player2"
+            layout="@layout/player_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp" />
+
+        <include
+            android:id="@+id/player3"
+            layout="@layout/player_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp" />
+
+        <include
+            android:id="@+id/player4"
+            layout="@layout/player_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp" />
+
+        <include
+            android:id="@+id/player5"
+            layout="@layout/player_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp" />
+
+        <include
+            android:id="@+id/player6"
+            layout="@layout/player_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp" />
+    </LinearLayout>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/buttonPlayGame"
         android:layout_width="wrap_content"
@@ -19,4 +70,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:tint="@color/white"
         tools:ignore="SpeakableTextPresentCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
