@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Mahan/AndroidStudioProjects/Penny-Drop/PennyDrop/app/src/main/res/drawable/ai_toggle_bg.xml" value="0.2324074074074074" />
+        <entry key="..\:/Mahan/AndroidStudioProjects/Penny-Drop/PennyDrop/app/src/main/res/drawable/ic_baseline_android_24.xml" value="0.22870370370370371" />
         <entry key="..\:/Mahan/AndroidStudioProjects/Penny-Drop/PennyDrop/app/src/main/res/layout/activity_main.xml" value="0.259375" />
         <entry key="..\:/Mahan/AndroidStudioProjects/Penny-Drop/PennyDrop/app/src/main/res/layout/fragment_game.xml" value="0.1793478260869565" />
         <entry key="..\:/Mahan/AndroidStudioProjects/Penny-Drop/PennyDrop/app/src/main/res/layout/fragment_pick_player.xml" value="0.1793478260869565" />
